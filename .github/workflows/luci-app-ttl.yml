@@ -19,7 +19,6 @@ jobs:
         libelf-dev ecj fastjar java-propose-classpath \
         libdeflate-dev libtool-bin curl pkg-config
         sudo ln -sf /usr/bin/gzip /usr/bin/libdeflate-gzip
-        sudo apt install -y libdeflate-utils openssl
 
     - name: Clone OpenWrt source
       run: |
